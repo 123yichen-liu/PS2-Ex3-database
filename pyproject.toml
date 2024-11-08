@@ -1,0 +1,20 @@
+# Project metadata
+[project]
+name = "PS2-EX3-database"              # Package name
+version = "0.1.0"                      # Package version
+description = "A package to download and process NBA database"  # Package description
+authors = [
+    { name = "Yichen Liu", email = "yl2076@cam.ac.uk" }   # Author name and email address
+]
+license = "MIT"                        # License type
+readme = "README.md"                   # Path to README file
+
+# Dependencies required to run the project
+[project.dependencies]
+click = ">=8.0"                        # Click library for command-line interface
+kaggle = ">=1.5.12"                    # Kaggle API library for data download
+
+# Build system settings
+[build-system]
+requires = ["setuptools", "wheel"]     # Build tools for packaging
+build-backend = "setuptools.build_meta" # Backend used for building the project
